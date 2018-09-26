@@ -53,13 +53,13 @@ buzz = int(input("For multiples of what number shall we print 'Buzz'? "))
 
 for i in numbers:
 
-    if i % 3 == 0 and i % 5 == 0:
+    if i % fizz == 0 and i % buzz == 0:
         print ("FizzBuzz")
 
-    elif i % 3 == 0:
+    elif i % fizz == 0:
         print ("Fizz")
     
-    elif i % 5 == 0:
+    elif i % buzz == 0:
         print ("Buzz")
 
     else:
